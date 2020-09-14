@@ -1,0 +1,18 @@
+.container {
+  display: block;
+  margin-left: 180;
+  border-style: solid;
+  border-color: cornsilk;
+  border-width: 10px;
+  max-width: 400px;
+}
+h1 {
+  font-size: 20px;
+}
+button{
+  background-color: white;
+  width: 20px
+  padding: 10px;
+  border: 2px solid green;
+ 
+}

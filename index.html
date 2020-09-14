@@ -1,11 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <title>Document</title>
-  </head>
-  <body>
-    <h1>heyy!!</h1>
-  </body>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="src/styles.css" />
+</head>
+
+<body>
+    <br />
+    <br />
+
+    <div class="container text-center">
+        <br />
+        <div class="row">
+            <div class="col">
+                <form>
+                    <input type="text" placeholder="Enter a city" autocomplete="off" id="city" />
+
+                    <input type="submit" placeholder="submit" class="submit" />
+                </form>
+            </div>
+
+            <div class="col-3">
+                <button>
+                    📍
+                </button>
+            </div>
+        </div>
+        <br>
+
+        <div class="row">
+            <div class="col-4">
+
+                <h1 id="heading">
+                    city Name
+                </h1>
+            </div>
+            <div class="col-4" id="date">
+
+                14 August 2019 </div>
+            <div class="col-4" id="time">
+
+                18:30 </div>
+        </div>
+        <br>
+
+        <div class="row">
+            <div class="col-3">
+                <span id="day">
+                    <strong>
+                        Friday
+                </span>
+                <br />
+                <span id="temp">
+                    0°C
+                </span>
+
+
+            </div>
+            <div class="col-4">
+                <span id="weatherType">
+
+                    Sunny
+                    </strong>
+                </span>
+            </div>
+            <div class="col-5">
+                🌞 Sunrise: 5:59am
+                <br />
+                🌝 Sunset: 8:20pm
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <br />
+                Friday
+            </div>
+            <div class="col">
+                <br />
+                ⛅️
+            </div>
+            <div class="col">
+                <br />
+                36°
+            </div>
+            <div class="col">
+                <br />
+                22°
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <br />
+                Saturday
+            </div>
+            <div class="col">
+                <br />
+                ☁️
+            </div>
+            <div class="col">
+                <br />
+                27°
+            </div>
+            <div class="col">
+                <br />
+                17°
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <br />
+                Sunday
+            </div>
+            <div class="col">
+                <br />
+                ⛅️
+            </div>
+            <div class="col">
+                <br />
+                24°
+            </div>
+            <div class="col">
+                <br />
+                15°
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <br />
+                Monday
+            </div>
+            <div class="col">
+                <br />
+                🌧
+            </div>
+            <div class="col">
+                <br />
+                22°
+            </div>
+            <div class="col">
+                <br />
+                14°
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <br />
+                Tuesday
+            </div>
+            <div class="col">
+                <br />
+                🌧
+            </div>
+            <div class="col">
+                <br />
+                23°
+            </div>
+            <div class="col">
+                <br />
+                16°
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <br />
+                Wednesday
+            </div>
+            <div class="col">
+                <br />
+                ☁️
+            </div>
+            <div class="col">
+                <br />
+                27°
+            </div>
+            <div class="col">
+                <br />
+                15°
+            </div>
+        </div>
+        <br />
+    </div>
+    <script src="src/index.js"></script>
+</body>
+
 </html>
