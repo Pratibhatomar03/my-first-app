@@ -13,6 +13,16 @@ button{
   background-color: white;
   width: 20px
   padding: 10px;
-  border: 2px solid green;
+  border: 2px solid blue ;
  
+}
+.submit{
+     background-color: white;
+     border-color: blue;
+     border-width: 2px;
+
+}
+#city{
+     border-color: blue;
+
 }
