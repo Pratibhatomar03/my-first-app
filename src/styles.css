@@ -16,6 +16,9 @@ button{
   border: 2px solid blue ;
  
 }
+p{
+  text-align: center;
+}
 .submit{
      background-color: white;
      border-color: blue;
